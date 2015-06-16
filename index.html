@@ -21,7 +21,6 @@
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Varela+Round|Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
 
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -92,7 +91,7 @@
             <div class="row">
                 <div class="col-lg-12 text-left">
                     <h2>Connection in 1 day
-                        <a class="pull-right btn btn-success btn-lg" href="register.php">Subscribe Now </a>
+                        <a class="pull-right btn btn-success btn-lg" rel="leanModal" name="register" href="#register" data-toggle="modal">Subscribe Now </a>
 
                     </h2>
                     <p><h5>Our experts will install additional equipment to your current Wi-Fi network, set up and provide access to your personal account, and all this for 1 day!</h5></p>
@@ -270,8 +269,33 @@
         </div>
     </footer>
 
+    <div class = "modal fade" id ="register" role ="dialog">
+        <div class ="modal-dialog">
+            <div class = "modal-content">
+                <div class ="modal-header">
+                <i class="icon-remove" data-dismiss="modal" aria-hidden="true"></i>
+                    <h3>Subscribe</h3>
+                </div>
+                <div class = "modal-body">
+                    <form action="" >
+                        <input type="text" class="input-large" name="name" placeholder="What is your name?" required="required">
+                        <input type="text" class="input-large" name="company" placeholder="The name of your company"><br><br>
+                        <input type="text" class="input-large" name="phone" placeholder="Phone number">
+                        <input type="text" class="input-large" name="email" placeholder="Email" required="required"><br><br>
+                        <textarea class="input-xlarge" name="desc" placeholder="Wishes and remarks"></textarea><br><br>
+                        <input type="hidden" name="title" value="Application for connection" />
+                    </form>
+                </div>
+                <div class ="modal-footer">
+                    <center><a class="btn btn-primary">Submit</a></center>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
@@ -306,33 +330,13 @@
             }
         });
     });
-    //Log-in & Registration
-     $(document).ready(function() {
-        $("#loginLink").click(function( event ){
-               event.preventDefault();
-               $(".overlay").fadeToggle("fast");
-         });
-        
-        $(".overlayLink").click(function(event){
-            event.preventDefault();
-            var action = $(this).attr('data-action');
-            
-            $("#loginTarget").load("ajax/" + action);
-            
-            $(".overlay").fadeToggle("fast");
-        });
-        
-        $(".close").click(function(){
-            $(".overlay").fadeToggle("fast");
-        });
-        
-        $(document).keyup(function(e) {
-            if(e.keyCode == 27 && $(".overlay").css("display") != "none" ) { 
-                event.preventDefault();
-                $(".overlay").fadeToggle("fast");
-            }
-        });
-    });
+    
+    </script>
+
+    <script type="text/javascript">
+            $(function() {
+                $('a[rel*=leanModal]').leanModal({ top : 200, closeButton: ".modal_close" });       
+            });
     </script>
 
    
