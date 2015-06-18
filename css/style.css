@@ -87,7 +87,7 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a {
-    background-color: #a2c6e5;
+    background-color: #7DCEED;
 }
 
 .navbar-custom .nav li.active a:hover {
@@ -155,13 +155,13 @@ a:focus {
 }
 
 .btn-circle {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     margin-top: 15px;
     padding: 7px 16px;
     border: 2px solid #fff;
     border-radius: 100%!important;
-    font-size: 40px;
+    font-size: 35px;
     color: #fff;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
