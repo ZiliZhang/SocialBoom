@@ -1101,18 +1101,11 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7; /*#478ecb  #b1cfe9*/
-  text-decoration: none;
+  background-color: transparent;
 }
-a:hover,
-a:focus {
-  color: #23527c;
-  text-decoration: underline;
-}
-a:focus {
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
+a:active,
+a:hover {
+  outline: 0;
 }
 figure {
   margin: 0;
