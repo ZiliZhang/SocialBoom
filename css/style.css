@@ -25,7 +25,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #337ab7;
+    color: #33343B;
 }
 
 .light {
@@ -61,7 +61,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #35526A;
+    color: #fff;
 }
 
 .navbar-custom .nav li a {
@@ -72,7 +72,7 @@ a:focus {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    color: #337ab7;
+    color: #565864;
     background-color: transparent;
 }
 
@@ -87,11 +87,11 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a {
-    background-color: #7DCEED;
+    background-color: rgba(255,215,0, 0.5);
 }
 
 .navbar-custom .nav li.active a:hover {
-    color: #337ab7;
+    color: #565864;
 }
 
 @media(min-width:768px) {
@@ -106,10 +106,14 @@ a:focus {
     }
 
     .navbar-custom.top-nav-collapse {
+        
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
         background: #fff;
     }
+     .navbar-custom.top-nav-collapse a {
+        color:  #3A3C45;
+     }
 }
 
 /*text-vertical-center*/
@@ -241,18 +245,19 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    color: #fff;
 }
 
 /* About */
 
-.about {
-    padding: 30px 0;
+.connection {
+    padding: 10px 0;
 }
 /* coustom pop out window */
 .modal {
     border: 0
 }
-
+    
 .modal .modal-header {
     border: 0;
     padding: 5px 20px 0
@@ -298,6 +303,7 @@ a:focus {
 /* Services */
 
 .services {
+    background-color: #3A3C45;
     padding: 50px 0;
 }
 
@@ -305,62 +311,67 @@ a:focus {
     margin-bottom: 30px;
 }
 
-/* Callout */
+/* how */
 
-.callout {
+.how {
     display: table;
     width: 100%;
     height: 400px;
     color: #fff;
-    background: url(../img/portfolio.jpg) no-repeat center center scroll;
+    background: url(../img/how.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
-/* Portfolio */
+/* Presentation */
 
-.portfolio {
+.presentation {
+    background-color: #3A3C45;
+    color:#fff;
     padding: 50px 0;
 }
 
-.portfolio-item {
+.presentation-item {
     margin-bottom: 30px;
 }
 
-.img-portfolio {
+.img-presentation {
     margin: 0 auto;
 }
 
-.img-portfolio:hover {
+.img-presentation:hover {
     opacity: 0.8;
 }
 
-/* Call to Action */
+/* How */
 
-.call-to-action {
+.how {
+    background-color: #fff;
     padding: 50px 0;
 }
 
-.call-to-action .btn {
+.how .btn {
     margin: 10px;
 }
 
-/* Map */
-
-.map {
-    height: 500px;
-}
-
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
+.contact{
+    background-color: #fff;
 }
 
 /* Footer */
 
 footer {
+    background-color: #3A3C45;
+    color:#fff;
     padding: 100px 0;
+}
+footer a{
+    color:#fff;
+}
+footer a:hover,
+footer a:focus {
+    text-decoration: none;
+    color: rgba(255,215,0, 0.8);
 }
