@@ -146,7 +146,7 @@
             </div>
             <div id="dialog" style="display:none;">
                 <div>
-                    <iframe src="Files/SocialBoom.pdf" style="width:1000px;"></iframe>
+                    <iframe src="Files/SocialBoom.pdf" style="width:1248px;height:663px;"></iframe>
                 </div>
             </div>
         </div>
@@ -375,8 +375,12 @@
     <script language="javascript" type="text/javascript">
       $(document).ready(function() {
         $('#trigger').click(function(){
-          $("#dialog").dialog();
-            
+          $("#dialog").dialog({
+            modal: true,
+            width: 1250,
+            height: 663,
+            resizable: true,
+          });
         }); 
       });                  
     </script>
