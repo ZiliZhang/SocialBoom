@@ -248,7 +248,22 @@ a:focus {
     color: #fff;
 }
 
-/* About */
+/* Presentation */
+
+.presentation {
+    background-color: #3A3C45;
+    color:#fff;
+    padding: 50px 0;
+}
+.presentation a{
+    color:rgba(255,215,0, 0.8);
+}
+.presentation a:hover,
+.presentation a:focus {
+    color: #fff;
+}
+
+/* Connection */
 
 .connection {
     padding: 10px 0;
@@ -311,7 +326,7 @@ a:focus {
     margin-bottom: 30px;
 }
 
-/* how */
+/* How */
 
 .how {
     display: table;
@@ -325,25 +340,6 @@ a:focus {
     -o-background-size: cover;
 }
 
-/* Presentation */
-
-.presentation {
-    background-color: #3A3C45;
-    color:#fff;
-    padding: 50px 0;
-}
-
-
-/* How */
-
-.how {
-    background-color: #fff;
-    padding: 50px 0;
-}
-
-.how .btn {
-    margin: 10px;
-}
 
 .contact{
     background-color: #fff;
@@ -364,3 +360,43 @@ footer a:focus {
     text-decoration: none;
     color: rgba(255,215,0, 0.8);
 }
+
+/* Bullet Navigator Skin */
+.jssorb05 {
+    position: absolute;
+}
+.jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+    position: absolute;
+    /* size of bullet elment */
+    width: 16px;
+    height: 16px;
+    background: url(../img/b05.png) no-repeat;
+    overflow: hidden;
+    cursor: pointer;
+}
+.jssorb05 div { background-position: -7px -7px; }
+    .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+    .jssorb05 .av { background-position: -67px -7px; }
+    .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; 
+}
+
+/* Arrow Navigator Skin */
+.jssora11l, .jssora11r {
+    display: block;
+    position: absolute;
+    /* size of arrow element */
+    width: 37px;
+    height: 37px;
+    cursor: pointer;
+    background: url(../img/a11.png) no-repeat;
+    overflow: hidden;
+    }
+.jssora11l { background-position: -11px -41px; }
+.jssora11r { background-position: -71px -41px; }
+.jssora11l:hover { background-position: -131px -41px; }
+.jssora11r:hover { background-position: -191px -41px; }
+.jssora11l.jssora11ldn { background-position: -251px -41px; }
+.jssora11r.jssora11rdn { background-position: -311px -41px; }
+
+
+
