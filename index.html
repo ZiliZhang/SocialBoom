@@ -25,9 +25,6 @@
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
-    <!--Jquery UI-->
-    <link href="css/jquery-ui.css" rel="stylesheet">
-
 
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -94,61 +91,56 @@
     <!-- Presentation -->
     <section id="presentation" class="presentation">
         <div class="container">
-            <!-- Jssor Slider Begin -->
-            <!-- ================================================== -->
-            <div id="slider1_container" style="display: none; position: relative; margin:0 auto; width: 1180px; height: 450px; overflow: hidden;">
+        <!-- Jssor Slider Begin -->
+        <!-- ================================================== -->
+        <div id="slider1_container" style="display: none; position: relative; margin:0 auto; width: 1180px; height: 450px; overflow: hidden;">
 
-                <!-- Slides Container -->
-                <div u="slides" style="cursor: move; position: absolute;margin-left: auto; margin-right: auto; left: 0;right:0; top: 0px; width: 800px; height: 450px; overflow: hidden;">
-                    <div>
-                        <img u="image" src2="img/2.png" />
-                    </div>
-                    <div>
-                        <img u="image" src2="img/3.png" />
-                    </div>
-                    <div>
-                        <img u="image" src2="img/4.png" />
-                    </div>
-                    <div>
-                        <img u="image" src2="img/5.png" />
-                    </div>
-                    <div>
-                        <img u="image" src2="img/6.png" />
-                    </div>
-                    <div>
-                        <img u="image" src2="img/7.png" />
-                    </div>
-                    <div>
-                        <img u="image" src2="img/8.png" />
-                    </div>
-                    <div>
-                        <img u="image" src2="img/9.png" />
-                    </div>
-                </div>
-                
-        
-                <!-- bullet navigator container -->
-                <div u="navigator" class="jssorb05" style="bottom: 16px; right: 6px;">
-                    <!-- bullet navigator item prototype -->
-                    <div u="prototype"></div>
-                </div>
-                
-                <!-- Arrow Left -->
-                <span u="arrowleft" class="jssora11l" style="top: 123px; left: 8px;">
-                </span>
-                <!-- Arrow Right -->
-                <span u="arrowright" class="jssora11r" style="top: 123px; right: 8px;">
-                </span>
-            </div>
-            <!-- Jssor Slider End -->
-            <div class="col-lg-12" >
-                <h5>To view the full presentation, please click <u> <a href="#presentation" id="trigger"> here </a></u> </h5>
-            </div>
-            <div id="dialog" style="display:none;">
+            <!-- Slides Container -->
+            <div u="slides" style="cursor: move; position: absolute;margin-left: auto; margin-right: auto; left: 0;right:0; top: 0px; width: 800px; height: 450px; overflow: hidden;">
                 <div>
-                    <iframe src="Files/SocialBoom.pdf" style="width:1248px;height:663px;"></iframe>
+                    <img u="image" src2="img/2.png" />
+                </div>
+                <div>
+                    <img u="image" src2="img/3.png" />
+                </div>
+                <div>
+                    <img u="image" src2="img/4.png" />
+                </div>
+                <div>
+                    <img u="image" src2="img/5.png" />
+                </div>
+                <div>
+                    <img u="image" src2="img/6.png" />
+                </div>
+                <div>
+                    <img u="image" src2="img/7.png" />
+                </div>
+                <div>
+                    <img u="image" src2="img/8.png" />
+                </div>
+                <div>
+                    <img u="image" src2="img/9.png" />
                 </div>
             </div>
+            
+    
+            <!-- bullet navigator container -->
+            <div u="navigator" class="jssorb05" style="bottom: 16px; right: 6px;">
+                <!-- bullet navigator item prototype -->
+                <div u="prototype"></div>
+            </div>
+            
+            <!-- Arrow Left -->
+            <span u="arrowleft" class="jssora11l" style="top: 123px; left: 8px;">
+            </span>
+            <!-- Arrow Right -->
+            <span u="arrowright" class="jssora11r" style="top: 123px; right: 8px;">
+            </span>
+        </div>
+        <!-- Jssor Slider End -->
+        <div class="col-lg-12" >
+            <h5>To view the full presentation, please click <u> <a href="presentation.html">here</a></u> </h5>
+        </div>
         </div>
         <!-- /.container -->
     </section>
@@ -370,20 +362,6 @@
     
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-
-    <script language="javascript" type="text/javascript">
-      $(document).ready(function() {
-        $('#trigger').click(function(){
-          $("#dialog").dialog({
-            modal: true,
-            width: 1250,
-            height: 663,
-            resizable: true,
-          });
-        }); 
-      });                  
-    </script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>

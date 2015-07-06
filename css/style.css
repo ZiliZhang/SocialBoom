@@ -274,6 +274,23 @@ a:focus {
     color: #fff;
 }
 
+.presentationPage {
+    background-color: #3A3C45;
+    padding-top: 90px
+}
+#pdf {
+    width: 1230px;
+    height: 663px;
+}
+
+#pdf p {
+   padding: 1em;
+}
+
+#pdf object {
+   display: block;
+   border: solid 5px #666;
+}
 
 /* Connection */
 
@@ -413,6 +430,7 @@ footer a:focus {
 .jssora11r:hover { background-position: -191px -41px; }
 .jssora11l.jssora11ldn { background-position: -251px -41px; }
 .jssora11r.jssora11rdn { background-position: -311px -41px; }
+
 
 
 
