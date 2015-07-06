@@ -34,17 +34,19 @@ a:focus {
 /* Menu */
 
 .navbar-custom {
+    padding: 0px;
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #fff;
 }
-
+.navbar-toggle{
+    padding:0px;
+}
 .navbar-custom .navbar-brand {
     font-weight: 700;
 }
-
 .navbar-custom .navbar-brand:focus {
     outline: 0;
 }
@@ -61,7 +63,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #fff;
+    color:  #3A3C45;
 }
 
 
@@ -95,6 +97,7 @@ a:focus {
     color: #565864;
 }
 
+
 @media(min-width:768px) {
     .navbar-custom {
         padding: 20px 0;
@@ -105,7 +108,9 @@ a:focus {
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
-
+    .navbar-custom a {
+    color: #fff;
+    }
     .navbar-custom.top-nav-collapse {
         
         padding: 0;
@@ -115,6 +120,10 @@ a:focus {
      .navbar-custom.top-nav-collapse a {
         color:  #3A3C45;
      }
+
+    .text-vertical-center h1 {
+        font-size: 4.5em!important;
+    }
 
 }
 
@@ -128,7 +137,7 @@ a:focus {
 .text-vertical-center h1 {
     margin: 0;
     padding: 0;
-    font-size: 4.5em;
+    font-size: 3em;
     font-weight: 700;
 }
 
@@ -270,7 +279,9 @@ a:focus {
 .connection {
     padding: 10px 0;
 }
-/* coustom pop out window */
+
+/* Coustom pop out window */
+
 .modal {
     border: 0
 }
@@ -342,6 +353,7 @@ a:focus {
     -o-background-size: cover;
 }
 
+/* Contact */
 
 .contact{
     background-color: #fff;
@@ -363,6 +375,7 @@ footer a:focus {
     color: rgba(255,215,0, 0.8);
 }
 
+/* Slider */
 /* Bullet Navigator Skin */
 .jssorb05 {
     position: absolute;
