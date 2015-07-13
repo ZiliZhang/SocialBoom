@@ -15,17 +15,17 @@ body {
 body {
     font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-a {
-    color: #35526A;
+
+a{
+    color: rgba(255,215,0, 0.8);
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 }
-
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #33343B;
+    color:#fff;
 }
 
 .light {
@@ -274,13 +274,6 @@ a:focus {
     color:#fff;
     padding-top: 50px;
 }
-.presentation a{
-    color:rgba(255,215,0, 0.8);
-}
-.presentation a:hover,
-.presentation a:focus {
-    color: #fff;
-}
 
 .presentationPage {
     background-color: #3A3C45;
@@ -296,7 +289,7 @@ a:focus {
 .embed-container {
    height: 0;
    width: 100%;
-   padding-bottom: 100%;
+   padding-bottom: 110%;
    overflow: hidden;
    position: relative;
 }
@@ -403,12 +396,12 @@ footer {
     padding: 10px 0;
 }
 footer a{
-    color:#fff;
+    color: #fff;
 }
 footer a:hover,
 footer a:focus {
     text-decoration: none;
-    color: rgba(255,215,0, 0.8);
+    color:rgba(255,215,0, 0.8);
 }
 
 /* Slider */
