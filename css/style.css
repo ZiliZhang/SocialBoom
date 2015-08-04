@@ -132,6 +132,9 @@ a:focus {
     footer {
         padding: 50px 0 !important;
     }
+    .presentationPage br {
+       display: none;
+    }
 
 }
 
