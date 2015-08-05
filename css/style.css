@@ -388,18 +388,19 @@ a:focus {
 /* Contact */
 
 .contact{
-    background-color: #fff;
+    background-color: #3A3C45;
+    color:#fff;
 }
 
 /* Footer */
 
 footer {
-    background-color: #3A3C45;
-    color:#fff;
+    background-color: #fff;
+    color:#3A3C45;
     padding: 10px 0;
 }
 footer a{
-    color: #fff;
+    color: #3A3C45;
 }
 footer a:hover,
 footer a:focus {
