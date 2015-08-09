@@ -153,6 +153,9 @@ a:focus {
 }
 
 /* Custom Button Styles */
+.clickable {
+    cursor: pointer;
+}
 
 .btn-dark {
     border-radius: 0;
@@ -169,6 +172,7 @@ a:focus {
 
 .btn-light {
     border-radius: 5;
+
     color: #333;
     background-color: rgb(255,215,0);
 }
