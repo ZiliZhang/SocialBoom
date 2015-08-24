@@ -65,6 +65,10 @@ a:focus {
     footer {
         padding: 10px 0 !important;
     }
+    
+    footer h4{
+        font-size:15px;
+    }
 
     .presentationPage br {
     display: initial;
