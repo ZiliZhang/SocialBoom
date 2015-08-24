@@ -31,6 +31,10 @@ a:focus {
 .light {
     font-weight: 400;
 }
+.arrow{
+    color:#ffd700;
+    font-size: 30px;
+}
 /* Menu */
 
 .navbar-custom {
@@ -135,7 +139,9 @@ a:focus {
     .presentationPage br {
        display: none;
     }
-
+    .arrow{
+        font-size: 70px;
+    }
 }
 
 /*text-vertical-center*/
@@ -372,7 +378,7 @@ a:focus {
 }
 
 .service-item {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 /* How */
