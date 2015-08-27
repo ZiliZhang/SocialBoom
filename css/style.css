@@ -16,7 +16,7 @@ body {
 }
 
 a{
-    color: #fff;
+    color: #FFD700;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -34,6 +34,11 @@ a:focus {
     color:#ffd700;
     font-size: 70px;
 }
+
+h4.big {
+    line-height: 200%;
+}
+
 
 @media(max-width:768px) {
     .navbar-custom {
@@ -71,6 +76,13 @@ a:focus {
         font-size:15px;
     }
 
+    .logo{
+        height:50px!important;
+    } 
+
+    h4.big {
+        line-height: 150%;
+    }  
     .presentationPage br {
     display: initial;
     }
@@ -168,6 +180,7 @@ a:focus {
     font-size: 4.5em;
     font-weight: 700;
 }
+
 
 /* Custom Button Styles */
 .clickable {
@@ -298,7 +311,9 @@ a:focus {
     color:#fff;
     padding-top: 50px;
 }
-
+.logo{
+    height:150px;
+}
 .presentationPage {
     background-color: #3A3C45;
     color:#fff;
@@ -396,6 +411,7 @@ a:focus {
 .service-item {
     margin-bottom: 20px;
 }
+
 
 /* How */
 
