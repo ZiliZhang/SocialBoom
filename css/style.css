@@ -95,7 +95,7 @@ h4.big {
         font-size: 30px;
     }
     .arrow2{
-        font-size: 40px;
+        font-size: 45px;
     }
 }
 
@@ -434,18 +434,18 @@ h4.big {
     -o-background-size: cover;
 }
 
-/* Contact */
-
-.contact{
+/*About*/
+.about{
     background-color: #3A3C45;
     color:#fff;
 }
 
+
 /* Footer */
 
 footer {
-    background-color: #fff;
-    color:#3A3C45;
+    background-color: #3A3C45;
+    color:#fff;
     padding: 50px 0;
 }
 footer a{
