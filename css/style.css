@@ -34,6 +34,10 @@ a:focus {
     color:#ffd700;
     font-size: 70px;
 }
+.arrow2{
+    color:#ffd700;
+    font-size: 80px;
+}
 
 h4.big {
     line-height: 200%;
@@ -89,6 +93,9 @@ h4.big {
 
     .arrow{
         font-size: 30px;
+    }
+    .arrow2{
+        font-size: 40px;
     }
 }
 
