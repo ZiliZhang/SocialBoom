@@ -76,7 +76,7 @@ h4.big {
         padding: 10px 0 !important;
     }
 
-    footer h4{
+    h4.contactinfo{
         font-size:15px;
     }
 
@@ -85,7 +85,7 @@ h4.big {
     } 
 
     h4.big {
-        line-height: 150%;
+        line-height: 125%;
     }  
     .presentationPage br {
     display: initial;
