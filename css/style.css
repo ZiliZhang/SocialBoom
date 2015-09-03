@@ -448,14 +448,7 @@ footer {
     color:#fff;
     padding: 50px 0;
 }
-footer a{
-    color: #3A3C45;
-}
-footer a:hover,
-footer a:focus {
-    text-decoration: none;
-    color:rgba(255,215,0, 0.8);
-}
+
 
 /* Slider */
 /* Bullet Navigator Skin */
