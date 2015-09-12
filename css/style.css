@@ -97,6 +97,10 @@ h4.big {
     .arrow2{
         font-size: 45px;
     }
+    .policy{
+        margin-left:0px!important; 
+        padding:0 20px!important;     
+    }
 }
 
 /* Menu */
@@ -172,6 +176,75 @@ h4.big {
 
 .navbar-custom.top-nav-collapse a {
     color:  #3A3C45;
+}
+
+/* Side Menu */
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 0;
+    width: 240px;
+    height: 100%;
+    margin-right: -250px;
+    overflow-y: auto;
+    background: #fff;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 15px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    position:fixed;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color:  #3A3C45;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #565864;
+    background-color: rgba(255,215,0, 0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 55px;
+    font-weight: 700;
+    line-height: 55px;
+    text-transform: uppercase;
+    background-color: rgba(255,215,0, 0.5);
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color:  #3A3C45;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color:  #3A3C45;
+    background: none;
 }
 
 /*text-vertical-center*/
@@ -440,6 +513,17 @@ h4.big {
     color:#fff;
 }
 
+/*Privacy policy*/
+.policy{
+    background-color: #3A3C45;
+    color:#fff;
+    position:relative;
+    margin-left:240px;
+    padding: 0 40px;
+}
+.policy h3{
+    color:rgb(255,215,0);
+}
 
 /* Footer */
 
