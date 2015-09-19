@@ -31,12 +31,8 @@ a:focus {
     font-weight: 400;
 }
 .arrow{
-    color:#ffd700;
-    font-size: 70px;
-}
-.arrow2{
-    color:#ffd700;
-    font-size: 80px;
+    color:rgba(255,215,0, 0.9);
+    font-size: 60px;
 }
 
 h4.big {
@@ -65,11 +61,11 @@ h4.big {
     }
 
     .services h3{
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .services img{
-        width:50%;
+        width:100%;
     }
 
     footer {
@@ -92,11 +88,9 @@ h4.big {
     }
 
     .arrow{
-        font-size: 30px;
+        font-size: 40px;
     }
-    .arrow2{
-        font-size: 45px;
-    }
+    
     .policy{
         margin-left:0px!important; 
         padding:0 20px!important;     
@@ -282,7 +276,6 @@ h4.big {
 
 .btn-light {
     border-radius: 5;
-
     color: #333;
     background-color: rgb(255,215,0);
 }
@@ -376,7 +369,7 @@ h4.big {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
+    background: url(../img/how.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -386,11 +379,6 @@ h4.big {
 
 /* Presentation */
 
-.presentation {
-    background-color: #3A3C45;
-    color:#fff;
-    padding-top: 50px;
-}
 .logo{
     height:150px;
 }
@@ -495,23 +483,19 @@ h4.big {
 
 /* How */
 
-.how {
+.about{
     display: table;
     width: 100%;
     height: 400px;
     color: #fff;
-    background: url(../img/how.jpg) no-repeat center center scroll;
+    background: url(../img/bg.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
-/*About*/
-.about{
-    background-color: #3A3C45;
-    color:#fff;
-}
+
 
 /*Privacy policy*/
 .policy{
