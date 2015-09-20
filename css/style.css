@@ -39,79 +39,7 @@ h4.big {
     line-height: 200%;
 }
 
-
-@media(max-width:768px) {
-    .navbar-custom {
-        padding: 0px;
-        border-bottom: 1px solid rgba(255,255,255,.3);
-        letter-spacing: 1px;
-        background-color: #fff;
-    }
-    .navbar-custom a {
-        color:  #3A3C45!important;
-    }
- 
-    .text-vertical-center h1 {
-        font-size: 3em!important;
-    }
-
-    .embed-container {
-       padding-bottom: 110% !important;
-
-    }
-
-    .services h3{
-        font-size: 20px;
-    }
-
-    .services img{
-        height: 300px;
-    }
-
-    footer {
-        padding: 10px 0 !important;
-    }
-
-    h4.contactinfo{
-        font-size:15px;
-    }
-
-    .logo{
-        height:50px!important;
-    } 
-
-    h4.big {
-        line-height: 125%;
-    }  
-    .presentationPage br {
-    display: initial;
-    }
-
-    .arrow{
-        font-size: 40px;
-    }
-    
-    .policy{
-        margin-left:0px!important; 
-        padding:0 20px!important;     
-    }
-
-    .benefit img{
-        height: 320px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto
-    }
-    .benefit h3{
-        font-size: 17px;
-    }
-
-    .highlight{
-        font-size: 20px;
-    }
-}
-
-/* Menu */
+/* Navigation */
 .navbar-custom {
     margin-bottom: 0;
     text-transform: uppercase;
@@ -254,6 +182,7 @@ h4.big {
     color:  #3A3C45;
     background: none;
 }
+
 
 /*text-vertical-center*/
 .text-vertical-center {
@@ -428,12 +357,6 @@ h4.big {
    border: solid 5px #666;
 }
 
-/* Connection */
-
-.connection {
-    padding: 1px 0;
-}
-
 /* Coustom pop out window */
 
 .modal {
@@ -536,8 +459,6 @@ h4.big {
     -o-background-size: cover;
 }
 
-
-
 /*Privacy policy*/
 .policy{
     background-color: #3A3C45;
@@ -566,6 +487,80 @@ footer a:focus{
     text-decoration: none;
     color:rgba(255,215,0, 0.8);
 }
+
+/*CSS for mobile display*/
+
+@media(max-width:768px) {
+    .navbar-custom {
+        padding: 0px;
+        border-bottom: 1px solid rgba(255,255,255,.3);
+        letter-spacing: 1px;
+        background-color: #fff;
+    }
+    .navbar-custom a {
+        color:  #3A3C45!important;
+    }
+ 
+    .text-vertical-center h1 {
+        font-size: 3em!important;
+    }
+
+    .embed-container {
+       padding-bottom: 110% !important;
+
+    }
+
+    .services h3{
+        font-size: 20px;
+    }
+
+    .services img{
+        width:45%;
+    }
+
+    footer {
+        padding: 10px 0 !important;
+    }
+
+    h4.contactinfo{
+        font-size:15px;
+    }
+
+    .logo{
+        height:50px!important;
+    } 
+
+    h4.big {
+        line-height: 125%;
+    }  
+    .presentationPage br {
+    display: initial;
+    }
+
+    .arrow{
+        font-size: 40px;
+    }
+    
+    .policy{
+        margin-left:0px!important; 
+        padding:0 20px!important;     
+    }
+
+    .benefit img{
+        height: 320px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+    .benefit h3{
+        font-size: 17px;
+    }
+
+    .highlight{
+        font-size: 20px;
+    }
+}
+
 
 
 /* Slider */
