@@ -409,15 +409,22 @@ h4.big {
 
 .services {
     background-color: #3A3C45;
-    padding: 50px 0;
+    padding: 30px 0;
 }
 
+.advantage{
+    color:#fff;
+    padding: 50px 0;
+    background: url(../img/portfolio.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 
-.service-item {
+.advantage-item {
     margin-bottom: 20px;
 }
-
-
 /* Partner */
 
 .partner{
@@ -460,6 +467,7 @@ h4.big {
 }
 
 /*Privacy policy*/
+
 .policy{
     background-color: #3A3C45;
     color:#fff;
@@ -470,17 +478,20 @@ h4.big {
 .policy h3{
     color:rgb(255,215,0);
 }
-
+.contact{
+   background-color: #3A3C45;
+   color:#fff; 
+}
 /* Footer */
 
 footer {
-    background-color: #3A3C45;
-    color:#fff;
-    padding: 50px 0;
+    background-color: #fff;
+    color:#3A3C45;
+    padding: 10px 0;
 }
 
 footer a{
-    color: #fff;
+    color: #3A3C45;
 }
 footer a:hover,
 footer a:focus{
@@ -488,6 +499,10 @@ footer a:focus{
     color:rgba(255,215,0, 0.8);
 }
 
+.copyright{
+    background-color: #3A3C45;
+    color:#fff; 
+}
 /*CSS for mobile display*/
 
 @media(max-width:768px) {
